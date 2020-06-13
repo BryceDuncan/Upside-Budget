@@ -1,4 +1,4 @@
-# Upsdie Budget
+# Upside Budget
 
 Upside Budget
 Bryce Duncan, Jason Keith, Frankie Flores, Trevor Tomer
