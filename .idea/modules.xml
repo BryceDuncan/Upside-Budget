@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Upside-Budget.iml" filepath="$PROJECT_DIR$/Upside-Budget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UpsideBudget/UpsideBudget.iml" filepath="$PROJECT_DIR$/UpsideBudget/UpsideBudget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UpsideBudget/android/app/src/debug/debug.iml" filepath="$PROJECT_DIR$/UpsideBudget/android/app/src/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UpsideBudget/android/app/src/profile/profile.iml" filepath="$PROJECT_DIR$/UpsideBudget/android/app/src/profile/profile.iml" />
+    </modules>
+  </component>
+</project>
