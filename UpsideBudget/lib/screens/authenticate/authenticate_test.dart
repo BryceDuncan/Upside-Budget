@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:UpsideBudget/screens/authenticate/register.dart';
-import 'package:UpsideBudget/screens/authenticate/sign_in.dart';
+import 'package:UpsideBudget/screens/authenticate/register_test.dart';
+import 'package:UpsideBudget/screens/authenticate/sign_in_test.dart';
 
 class Authenticate extends StatefulWidget {
   @override
