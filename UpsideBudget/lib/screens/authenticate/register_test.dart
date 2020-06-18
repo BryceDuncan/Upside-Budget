@@ -1,3 +1,4 @@
+import 'package:UpsideBudget/screens/authenticate/sign_in_test.dart';
 import 'package:UpsideBudget/shared/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:UpsideBudget/services/auth.dart';
@@ -34,7 +35,10 @@ class _RegisterState extends State<Register> {
                 icon: Icon(Icons.person),
                 label: Text('Sign In'),
                 onPressed: () {
-                  widget.toggleView();
+                  Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SignIn()),
+                  );
                 },
               )
             ],

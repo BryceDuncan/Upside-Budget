@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:UpsideBudget/services/auth.dart';
 import 'package:UpsideBudget/shared/constants.dart';
-
+import 'package:UpsideBudget/screens/authenticate/register_test.dart';
 class SignIn extends StatefulWidget {
 
   final Function toggleView;
@@ -34,7 +34,10 @@ class _SignInState extends State<SignIn> {
             icon: Icon(Icons.person),
             label: Text('Register'),
             onPressed: () {
-              widget.toggleView();
+              Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Register()),
+             );
             },
           )
         ],
