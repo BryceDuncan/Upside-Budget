@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return StreamProvider<User>.value(
         value: AuthService().user,
          child: MaterialApp(
+        //Change Wrapper() to the screen you would like to test
         home: Wrapper(),
       ),
     );
