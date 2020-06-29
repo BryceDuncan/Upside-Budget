@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="119d5622-988e-4b69-bdb8-218f7f51bf39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/UI/CustomInputField.dart" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/UI/CustomInputField.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UpsideBudget/lib/screens/wrapper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/lib/screens/wrapper.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/RegisterScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/RegisterScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/loginScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/loginScreen.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,40 +106,40 @@
     </state>
     <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592944445719" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592589676710" />
-    <state width="1481" height="196" key="GridCell.Tab.0.bottom" timestamp="1593403882924">
+    <state width="1481" height="196" key="GridCell.Tab.0.bottom" timestamp="1593447270819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593403882924" />
+    <state width="1481" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593447270819" />
     <state width="1309" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592614706793" />
-    <state width="1481" height="196" key="GridCell.Tab.0.center" timestamp="1593403882923">
+    <state width="1481" height="196" key="GridCell.Tab.0.center" timestamp="1593447270819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593403882923" />
+    <state width="1481" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593447270819" />
     <state width="1309" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592614706793" />
-    <state width="1481" height="196" key="GridCell.Tab.0.left" timestamp="1593403882922">
+    <state width="1481" height="196" key="GridCell.Tab.0.left" timestamp="1593447270819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593403882922" />
+    <state width="1481" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593447270819" />
     <state width="1309" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592614706793" />
-    <state width="1481" height="196" key="GridCell.Tab.0.right" timestamp="1593403882924">
+    <state width="1481" height="196" key="GridCell.Tab.0.right" timestamp="1593447270819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1481" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593403882924" />
+    <state width="1481" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593447270819" />
     <state width="1309" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592614706793" />
     <state x="293" y="0" key="SettingsEditor" timestamp="1593028670213">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="293" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593028670213" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592589687394" />
-    <state x="74" y="73" width="1389" height="679" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1593402524441">
+    <state x="74" y="73" width="1389" height="679" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1593446966025">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="74" y="73" width="1389" height="679" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1593402524441" />
+    <state x="74" y="73" width="1389" height="679" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.824@0.0.1536.824" timestamp="1593446966025" />
     <state x="92" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592589687724" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1593367774969">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1593446051376">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593026518848" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593446051376" />
     <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1593367774969" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592092775986" />
     <state x="866" y="182" width="672" height="538" key="search.everywhere.popup" timestamp="1592944535522">

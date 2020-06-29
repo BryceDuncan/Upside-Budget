@@ -1,3 +1,4 @@
+import 'package:UpsideBudget/screens/FrontendDevScreens/RegisterScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:UpsideBudget/services/auth.dart';
 import 'package:UpsideBudget/shared/constants.dart';
@@ -46,7 +47,10 @@ class loginScreen extends StatelessWidget {
                    ),
                GestureDetector(
                  onTap: () {
-                   throw UnimplementedError;
+                   Navigator.push(
+                       context,
+                       MaterialPageRoute(builder: (context) => RegisterScreen())
+                   );
                  },
                    child: Text('Create An Account', style: TextStyle( color: Color(0xff1a936f))
                ),

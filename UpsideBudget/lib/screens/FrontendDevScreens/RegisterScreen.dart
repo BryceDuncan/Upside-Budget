@@ -6,6 +6,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:UpsideBudget/screens/FrontendDevScreens/UI/CustomInputField.dart';
 import 'package:flutter/src/widgets/container.dart';
+import 'package:UpsideBudget/screens/FrontendDevScreens/loginScreen.dart';
 
 class RegisterScreen extends StatelessWidget {
   @override
@@ -43,7 +44,10 @@ class RegisterScreen extends StatelessWidget {
                 Text('Already have an account?', style: TextStyle(color: Color(0xffA5A5A5))),
                 GestureDetector(
                   onTap: () {
-                    throw UnimplementedError;
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => loginScreen())
+                    );
                   },
                   child: Text('Login', style: TextStyle(color: Color(0xff1A936F)))),
               ],
