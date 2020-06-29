@@ -15,11 +15,8 @@ class Wrapper extends StatelessWidget {
     //The Wrapper can return the home or login page
     if(user == null)
     {
-<<<<<<< HEAD
-      return RegisterScreen();
-=======
-      return loginScreen(); // change this to stateless widget name
->>>>>>> feature/LoginScreen
+
+      return loginScreen();
     }
     else
     {
