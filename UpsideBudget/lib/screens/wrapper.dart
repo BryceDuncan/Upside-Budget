@@ -1,6 +1,7 @@
 import 'package:UpsideBudget/models/user.dart';
 import 'package:UpsideBudget/screens/Home/Home.dart';
 import 'package:UpsideBudget/screens/authenticate/authenticate_test.dart';
+import 'package:UpsideBudget/screens/FrontendDevScreens/RegisterScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -13,7 +14,7 @@ class Wrapper extends StatelessWidget {
     //The Wrapper can return the home or login page
     if(user == null)
     {
-      return Authenticate();
+      return RegisterScreen();
     }
     else
     {
