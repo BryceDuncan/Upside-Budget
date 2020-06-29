@@ -37,7 +37,7 @@ class RegisterScreen extends StatelessWidget {
                   child: RaisedButton(
                     onPressed: (){},color: Color(0xff1A936F),
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10.0))),
-                    child: Text('Sign Up', style: TextStyle(fontSize: 18)),
+                    child: Text('Sign Up', style: TextStyle(fontSize: 18,color: Color(0xff2F3E46))),
                   ),
                 ),
                 Text('Already have an account?', style: TextStyle(color: Color(0xffA5A5A5))),
