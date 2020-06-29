@@ -34,10 +34,9 @@ class _SignInState extends State<SignIn> {
             icon: Icon(Icons.person),
             label: Text('Register'),
             onPressed: () {
-              Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => Register()),
-             );
+              Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => Register()),
+                  );
             },
           )
         ],

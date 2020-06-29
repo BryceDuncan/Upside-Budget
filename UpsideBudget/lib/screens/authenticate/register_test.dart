@@ -35,9 +35,8 @@ class _RegisterState extends State<Register> {
                 icon: Icon(Icons.person),
                 label: Text('Sign In'),
                 onPressed: () {
-                  Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => SignIn()),
+                  Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => SignIn()),
                   );
                 },
               )
