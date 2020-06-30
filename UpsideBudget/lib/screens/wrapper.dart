@@ -1,4 +1,5 @@
 import 'package:UpsideBudget/models/user.dart';
+import 'package:UpsideBudget/screens/FrontendDevScreens/IncomeScreen.dart';
 import 'package:UpsideBudget/screens/Home/Home.dart';
 import 'package:UpsideBudget/screens/authenticate/authenticate_test.dart';
 import 'package:UpsideBudget/screens/FrontendDevScreens/RegisterScreen.dart';
@@ -17,7 +18,7 @@ class Wrapper extends StatelessWidget {
     if(user == null)
     {
 
-      return RegisterScreen();
+      return IncomeScreen();
     }
     else
     {
