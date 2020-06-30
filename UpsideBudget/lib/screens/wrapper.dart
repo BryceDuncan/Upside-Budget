@@ -2,6 +2,7 @@ import 'package:UpsideBudget/models/user.dart';
 import 'package:UpsideBudget/screens/Home/Home.dart';
 import 'package:UpsideBudget/screens/authenticate/authenticate_test.dart';
 import 'package:UpsideBudget/screens/FrontendDevScreens/RegisterScreen.dart';
+import 'package:UpsideBudget/screens/authenticate/sign_in_test.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:UpsideBudget/screens/FrontendDevScreens/loginScreen.dart';
@@ -16,7 +17,7 @@ class Wrapper extends StatelessWidget {
     if(user == null)
     {
 
-      return loginScreen();
+      return RegisterScreen();
     }
     else
     {
