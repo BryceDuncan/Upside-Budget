@@ -1,5 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:UpsideBudget/models/user.dart';
 
 class IncomeScreen extends StatefulWidget
 {
@@ -10,7 +12,9 @@ class IncomeScreen extends StatefulWidget
 class _IncomeScreenState extends State<IncomeScreen> {
 
   final _formKeyIncomeScreen = GlobalKey<FormState>();
-  int income = 0;
+  final firestoreInstance = Firestore.instance;
+  double income;
+  String userIncomeInput;
 
   Widget build(BuildContext context)
   {
@@ -79,7 +83,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
                                     keyboardType: TextInputType.number,
                                     validator: (val) => val.isEmpty ? 'Enter Valid Income' : null,
                                     onChanged: (val) {
-                                      setState(() => income = val as int);
+                                      setState(() => userIncomeInput = val);
                                     },
                                     obscureText: false,
                                     decoration: InputDecoration(
@@ -117,8 +121,22 @@ class _IncomeScreenState extends State<IncomeScreen> {
                           ),
                         ),
 
-                        onPressed: () {
-                          throw UnimplementedError;
+                        onPressed: () async {
+                          if(userIncomeInput != null) {
+
+                            //*********THIS SHOULD PROBABLY BE MADE INTO A FUNCTION WITHIN THE DATABASE FILE***********
+                            var firebaseUser = await FirebaseAuth.instance.currentUser();
+                            income = double.parse(userIncomeInput);
+                            firestoreInstance.collection("test_users").document(
+                                firebaseUser.uid).setData(
+                                {
+                                  "income": income,
+                                }, merge: true
+                            );
+                          }
+                          else {
+                            //************INPUT THE ERROR HERE************
+                          }
                         },
                       ),
                       ),

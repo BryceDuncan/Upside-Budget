@@ -17,12 +17,11 @@ class Wrapper extends StatelessWidget {
     //The Wrapper can return the home or login page
     if(user == null)
     {
-
-      return IncomeScreen();
+      return loginScreen();
     }
     else
     {
-     return Home(); 
+     return IncomeScreen();
     }
   }
 }
