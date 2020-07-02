@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="119d5622-988e-4b69-bdb8-218f7f51bf39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/RegisterScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/RegisterScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/UI/CustomInputField.dart" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/UI/CustomInputField.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/loginScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/lib/screens/FrontendDevScreens/loginScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UpsideBudget/lib/screens/wrapper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/lib/screens/wrapper.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpsideBudget/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpsideBudget/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/UpsideBudget/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
