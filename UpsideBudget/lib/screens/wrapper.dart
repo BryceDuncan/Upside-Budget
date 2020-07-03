@@ -1,4 +1,5 @@
 import 'package:UpsideBudget/models/user.dart';
+import 'package:UpsideBudget/screens/FrontendDevScreens/HomeScreen.dart';
 import 'package:UpsideBudget/screens/Home/Home.dart';
 import 'package:UpsideBudget/screens/authenticate/authenticate_test.dart';
 import 'package:UpsideBudget/screens/FrontendDevScreens/RegisterScreen.dart';
@@ -15,15 +16,7 @@ class Wrapper extends StatelessWidget {
     //The Wrapper can return the home or login page
     if(user == null)
     {
-<<<<<<< HEAD
-      return Authenticate(); // change this to stateless widget name
-=======
-<<<<<<< HEAD
-      return RegisterScreen();
-=======
-      return loginScreen(); // change this to stateless widget name
->>>>>>> feature/LoginScreen
->>>>>>> develop
+      return HomeScreen(); // change this to stateless widget name
     }
     else
     {
