@@ -4,7 +4,6 @@ import 'package:UpsideBudget/screens/FrontendDevScreens/loginScreen.dart';
 
 class CustomInputField extends StatefulWidget{
 
-<<<<<<< HEAD
   final Icon fieldIcon;
   final String hintText;
   final bool hidePassword;
@@ -22,14 +21,6 @@ class _CustomInputFieldState extends State<CustomInputField>{
   String email = '';
   String password = '';
   _CustomInputFieldState(this.fieldIcon,this.hintText,this.hidePassword);
-=======
-class CustomInputField extends StatelessWidget {
-
-  Icon fieldIcon;
-  String hintText;
-  CustomInputField(this.fieldIcon,this.hintText, this.password);
-  bool password;
->>>>>>> feature/HomeScreen
 
   @override
   Widget build(BuildContext context) {
@@ -48,8 +39,6 @@ class CustomInputField extends StatelessWidget {
                 padding: const EdgeInsets.all(13.0),
                 child: fieldIcon,
               ),
-<<<<<<< HEAD
-
               Container(
                 decoration: BoxDecoration(
                   color: Color(0xffC4C4C4),
@@ -77,22 +66,6 @@ class CustomInputField extends StatelessWidget {
                       fontSize: 18.0,
                      color: Color(0xff2F3E46),
                     ),
-=======
-              width: 200,
-              height: 60,
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: TextFormField(
-                  obscureText: password,
-                  decoration: InputDecoration(
-                      border: InputBorder.none,
-                      hintText: hintText,
-                      fillColor: Color(0xffC4C4C4),
-                      filled: true),
-                  style: TextStyle(
-                    fontSize: 18.0,
-                    color: Color(0xff2F3E46),
->>>>>>> feature/HomeScreen
                   ),
                 ),
               ),
@@ -102,9 +75,4 @@ class CustomInputField extends StatelessWidget {
       ),
     );
   }
-<<<<<<< HEAD
-
 }
-=======
-}
->>>>>>> feature/HomeScreen
