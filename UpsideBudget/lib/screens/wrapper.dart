@@ -9,6 +9,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:UpsideBudget/screens/FrontendDevScreens/loginScreen.dart';
 
+import 'Home/Home.dart';
+
 class Wrapper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,11 +20,11 @@ class Wrapper extends StatelessWidget {
     //The Wrapper can return the home or login page
     if(user == null)
     {
-      return HomeScreen(); // change this to stateless widget name
+      return loginScreen();
     }
     else
     {
-     return IncomeScreen();
+     return HomeScreen();
     }
   }
 }
