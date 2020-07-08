@@ -13,6 +13,7 @@ class _IncomeScreenState extends State<IncomeScreen> {
 
   final _formKeyIncomeScreen = GlobalKey<FormState>();
   final firestoreInstance = Firestore.instance;
+  String incomeError = '';
   double income;
   String userIncomeInput;
 
@@ -122,11 +123,16 @@ class _IncomeScreenState extends State<IncomeScreen> {
                         ),
 
                         onPressed: () async {
-                          if(userIncomeInput != null) {
+                          income = double.parse(userIncomeInput);
+                          if(income <= 0 )
+                            {
+                              setState(() => incomeError = 'Invalid value entered');
+                            }
+                          else if(userIncomeInput != null) {
 
                             //*********THIS SHOULD PROBABLY BE MADE INTO A FUNCTION WITHIN THE DATABASE FILE***********
                             var firebaseUser = await FirebaseAuth.instance.currentUser();
-                            income = double.parse(userIncomeInput);
+                            // income = double.parse(userIncomeInput);    // added it earlier to display error correctly
                             firestoreInstance.collection("test_users").document(
                                 firebaseUser.uid).setData(
                                 {
@@ -136,9 +142,19 @@ class _IncomeScreenState extends State<IncomeScreen> {
                           }
                           else {
                             //************INPUT THE ERROR HERE************
+                            setState(() => incomeError = 'Invalid value entered');
                           }
                         },
                       ),
+
+                      ),
+                      Text(
+                       incomeError,
+                        style: TextStyle(
+                          color: Colors.red,
+                          fontSize: 14,
+                        ),
+
                       ),
                     ],
 
